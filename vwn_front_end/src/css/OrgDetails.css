@@ -1,0 +1,42 @@
+.orgDetails {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 5px;
+    border-style: outset;
+    border-width: 1px;
+    cursor: pointer;
+}
+.orgDetails:hover {
+    background-color: #ffffff;
+}
+.orgName {
+    margin: 0px;
+}
+.spanContainer {
+    display: flex;
+    flex-flow: row wrap;
+}
+.tag {
+    margin: 2px;
+    padding: 5px;
+    color: #ed2f25;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+.tagSelected {
+    background-color: #ffffff;
+}
+.orgSelected {
+    padding: 10px;
+}
+.orgLogoContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.orgLogo {
+    width: 50%;
+}

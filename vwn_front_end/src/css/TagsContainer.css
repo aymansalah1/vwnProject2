@@ -1,0 +1,41 @@
+.mainContainer {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    
+    
+}
+.tagsContainer, .toggleContainer {
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.toggleContainer {
+    flex-wrap: row nowrap;
+}
+.btn {
+  margin: 2px;
+  padding: 9px;
+  color: #ed2f25;
+  background-color: #ffffff;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.btn:hover {
+  padding: 8px;
+  background-color: #ed2f25;
+  color: #ffffff;
+ 
+}
+.btnSelected {
+  background-color: #ed2f25;
+}
+.tButtonLeft {
+  border-radius: 7px 0px 0px 7px;
+}
+.tButtonRight {
+  border-radius: 0px 7px 7px 0px;
+  margin-left: -2px;
+}

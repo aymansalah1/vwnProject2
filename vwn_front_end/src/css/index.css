@@ -1,0 +1,17 @@
+html, body, #root {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%
+}
+body, h1, h2 {
+    font-family: Solex ,monospace,'Open Sans',Verdana;
+    font-weight: normal;
+    background-color: #559dc1;
+} 
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.5em;
+}

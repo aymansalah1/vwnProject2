@@ -1,0 +1,8 @@
+.v_f_element{
+    overflow-y: auto;
+    background-color: #559dc1;
+    border-style: solid;
+    border-color: #555555;
+    border-width: 0px 1px;
+    flex: 1 1 0;
+}

@@ -1,0 +1,39 @@
+.menuBar {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e7e2;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-bottom-color: #ed2f25;
+    display: flex;
+    align-items: stretch;
+}
+.menuUL {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+.menuBarItem {
+    float: left;
+    color: #ed2f25;
+    padding: 20px;
+    font-weight: bold;
+}
+.menuBarItem:hover:not(.activeMenuBarItem) {
+    background-color: #e8e7e2;
+    cursor: pointer;
+}
+.activeMenuBarItem {
+    background-color: #e8e7e2;
+}
+#logo {
+    height: 112px;
+    
+}
+#mainFoto{
+    display: inline-block;
+    width: 55%;
+    margin-left: 286px;
+    background-color: #559dc1;
+}

@@ -1,0 +1,37 @@
+ .route, .v_f_container {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.v_f_container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.h_f_container {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 0;
+    
+}
+.h_f_element {
+    width: 33%;
+}
+.mapDiv {
+    width: 67%;
+}
+@media (max-width: 780px) {
+    .h_f_element {
+        width: 50%;
+    }
+    .mapDiv {
+        width: 50%;
+    }
+}
+@media (max-width: 450px) {
+    .h_f_element {
+        width: 100%;
+    }
+    .mapDiv {
+        width: 0%;
+    }
+}
